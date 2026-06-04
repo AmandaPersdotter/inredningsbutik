@@ -109,7 +109,8 @@ Testa:
 - 500 → Släng ett test-exception i en controller
 
 ## Publicering på Render
-https://designbypersdotter-e5gzdxgva3e8hrg2.swedencentral-01.azurewebsites.net/
+https://inredningsbutik-9m7e.onrender.com
 ### För att logga in som admin:
 E-post: admin@inredningsbutik.local
+
 Lösenord: Admin12345!
