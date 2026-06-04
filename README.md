@@ -40,7 +40,7 @@ Web → IOrderService (Core) → OrderService (Infrastructure) → DbContext
 - .NET 8
 - ASP.NET Core MVC
 - Entity Framework Core
-- SQL Server
+- SQLite
 - ASP.NET Identity
 - Dependency Injection
 - Logging (ILogger)
@@ -91,7 +91,7 @@ Applikationen startar på: http://localhost:5162
 ---
 
 ## Databas
-Projektet använder SQL Server.
+Projektet använder SQLite via Entity Framework Core.
 
 Migrationer appliceras automatiskt vid start.
 
@@ -108,5 +108,8 @@ Testa:
 - 403 → Försök nå skyddad route utan rätt roll
 - 500 → Släng ett test-exception i en controller
 
-## Publicering på Azure
+## Publicering på Render
 https://designbypersdotter-e5gzdxgva3e8hrg2.swedencentral-01.azurewebsites.net/
+### För att logga in som admin:
+E-post: admin@inredningsbutik.local
+Lösenord: Admin12345!
